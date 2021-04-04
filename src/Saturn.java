@@ -3,20 +3,24 @@ public class Saturn extends Planet implements Printable {
     private int numberOfRings;
     private String compositionOfRings;
 
+    public Saturn(double diameter, double density, double orbitalPeriod, Temperature temp,
+                  String atmosphericComposition, int numberOfRings, String compositionOfRings) {
+        super.setDiameter(diameter);
+        super.setDensity(density);
+        super.setOrbitalPeriod(orbitalPeriod);
+        super.setTemp(temp);
+        super.setOrder(OrderInSolarSystem.SIXTH);
+        super.setAtmosphericComposition(atmosphericComposition);
+        this.numberOfRings = numberOfRings;
+        this.compositionOfRings = compositionOfRings;
+    }
+
     public int getNumberOfRings() {
         return numberOfRings;
     }
 
-    public void setNumberOfRings(int numberOfRings) {
-        this.numberOfRings = numberOfRings;
-    }
-
     public String getCompositionOfRings() {
         return compositionOfRings;
-    }
-
-    public void setCompositionOfRings(String compositionOfRings) {
-        this.compositionOfRings = compositionOfRings;
     }
 
     public void print() {

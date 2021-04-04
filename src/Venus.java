@@ -3,20 +3,24 @@ public class Venus extends Planet implements Printable {
     private int numberOfVolcanoes;
     private String volcanoName;
 
+    public Venus(double diameter, double density, double orbitalPeriod, Temperature temp,
+                 String atmosphericComposition, int numberOfVolcanoes, String volcanoName) {
+        super.setDiameter(diameter);
+        super.setDensity(density);
+        super.setOrbitalPeriod(orbitalPeriod);
+        super.setTemp(temp);
+        super.setOrder(OrderInSolarSystem.SECOND);
+        super.setAtmosphericComposition(atmosphericComposition);
+        this.numberOfVolcanoes = numberOfVolcanoes;
+        this.volcanoName = volcanoName;
+    }
+
     public int getNumberOfVolcanoes() {
         return numberOfVolcanoes;
     }
 
-    public void setNumberOfVolcanoes(int numberOfVolcanoes) {
-        this.numberOfVolcanoes = numberOfVolcanoes;
-    }
-
     public String getVolcanoName() {
         return volcanoName;
-    }
-
-    public void setVolcanoName(String volcanoName) {
-        this.volcanoName = volcanoName;
     }
 
     public void print() {

@@ -9,39 +9,19 @@ public class Main {
     public static Planet createObject(String className) {
         switch (className) {
             case "Saturn":
-                Saturn saturn = new Saturn();
-                saturn.setDiameter(120536);
-                saturn.setDensity(687);
-                saturn.setOrbitalPeriod(10759.22);
-                saturn.setTemp(new Temperature(-139, -189));
-                saturn.setOrder(OrderInSolarSystem.SIXTH);
-                saturn.setAtmosphericComposition("hydrogen and helium");
-                saturn.setNumberOfRings(30);
-                saturn.setCompositionOfRings("ice particles and rocky debris");
+                Saturn saturn = new Saturn(120536, 687, 10759.22, new Temperature(-139, -189),
+                        "hydrogen and helium", 30,
+                        "ice particles and rocky debris");
                 saturn.print();
                 break;
             case "Earth":
-                Earth earth = new Earth();
-                earth.setDiameter(12742);
-                earth.setDensity(5515.3);
-                earth.setOrbitalPeriod(365.25);
-                earth.setTemp(new Temperature(-89, 58));
-                earth.setOrder(OrderInSolarSystem.THIRD);
-                earth.setAtmosphericComposition("nitrogen and oxygen");
-                earth.setPopulation(7.8);
-                earth.setNumberOfContinents(7);
+                Earth earth = new Earth(12742, 5515.3, 365.25, new Temperature(-89, 58),
+                        "nitrogen and oxygen", 7.8, 7);
                 earth.print();
                 break;
             case "Venus":
-                Venus venus = new Venus();
-                venus.setDiameter(12103.6);
-                venus.setDensity(5200);
-                venus.setOrbitalPeriod(224.7);
-                venus.setTemp(new Temperature(460, 470));
-                venus.setOrder(OrderInSolarSystem.SECOND);
-                venus.setAtmosphericComposition("carbon dioxide");
-                venus.setNumberOfVolcanoes(1600);
-                venus.setVolcanoName("Maat Mons");
+                Venus venus = new Venus(12103.6, 5200, 224.7, new Temperature(460, 470),
+                        "carbon dioxide", 1600, "Maat Mons");
                 venus.print();
                 break;
         }

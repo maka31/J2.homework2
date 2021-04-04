@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef4762fa-bf06-46ee-821b-1947144e12c6" name="Default Changelist" comment="" />
+    <list default="true" id="ef4762fa-bf06-46ee-821b-1947144e12c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Earth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Earth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Saturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Saturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Temperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Venus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Venus.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,13 +23,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1qcePNEetUx66QOJv2JkcZTM18n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JAVA 1/Classworks/Classwork2.1 - Switch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -53,10 +64,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1617563724946">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1617566728092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1617563724946" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1617566728092" />
     <state x="466" y="254" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1617469161840">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -73,21 +84,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1617549526733" />
-    <state width="1306" height="543" key="GridCell.Tab.0.bottom" timestamp="1617563933031">
+    <state x="550" y="262" key="Github.ShareDialog" timestamp="1617564241469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="543" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617563933031" />
-    <state width="1306" height="543" key="GridCell.Tab.0.center" timestamp="1617563933031">
+    <state x="550" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1617564241469" />
+    <state x="396" y="62" key="Github.UntrackedFilesDialog" timestamp="1617564247493">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="543" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617563933031" />
-    <state width="1306" height="543" key="GridCell.Tab.0.left" timestamp="1617563933031">
+    <state x="396" y="62" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1617564247493" />
+    <state width="1300" height="230" key="GridCell.Tab.0.bottom" timestamp="1617567478615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="543" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617563933031" />
-    <state width="1306" height="543" key="GridCell.Tab.0.right" timestamp="1617563933031">
+    <state width="1300" height="230" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617567478615" />
+    <state width="1300" height="230" key="GridCell.Tab.0.center" timestamp="1617567478615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="543" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617563933031" />
+    <state width="1300" height="230" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617567478615" />
+    <state width="1300" height="230" key="GridCell.Tab.0.left" timestamp="1617567478615">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1300" height="230" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617567478615" />
+    <state width="1300" height="230" key="GridCell.Tab.0.right" timestamp="1617567478615">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1300" height="230" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617567478615" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1617566479973">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1617566479973" />
   </component>
 </project>
